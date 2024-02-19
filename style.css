@@ -1,0 +1,72 @@
+body{
+  background-color: rgb(190, 181, 181);
+  font-family: monospace;
+  color: darkblue;
+  font-size: 30;
+  line-height: 100%;
+}
+h1{
+  color : rebeccapurple;
+  font-family: monospace;
+  font-size: x-large;
+  line-height: 100%;
+}
+p{
+  color: darkslategray;
+}
+h2{
+  color:darkblue;
+  font-family: monospace;
+  font-size: x-large;
+  line-height: 100%;}
+h3{
+  color: darkmagenta;
+  font-family: monospace;
+  font-size: x-large;
+  line-height: 100%;
+}
+a{
+  text-decoration: none;
+  color:cadetblue}
+a:hover {
+    background-color: burlywood;
+  }
+img{
+  width: 300px ;
+  height: 300px;
+  border-radius: 150px;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cardhigh{
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 2px 2px 3px blue;
+}
+.cardlow{
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 2px 2px 3px blue;
+}
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+@media (max-width : 960px) {
+  .container {
+    width: 700px
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
